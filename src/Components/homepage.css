@@ -1,0 +1,150 @@
+/* @import url('https://fonts.googleapis.com/css?family=Inter:normal,bold,italic'); */
+.full{
+    background: url('./ian-parker-rWey_wseEcY-unsplash 1.png');
+    height: 100vmax;
+}
+.titlebar{
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 20vh;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: center;
+    padding-left: 5vw;
+    padding-top: 5vh;
+    width: 5vw;
+}
+.titleTop {
+    color: white;
+    font-size: larger;
+    /* font-family: 'Inter'; */
+    font-weight: bold;
+   
+    
+} 
+
+.titleDown{
+    /* font-family: 'Inter';
+    font-style: normal; */
+    color:  #379DB4;
+    font-size: larger;
+    
+    font-weight: bold;
+}
+
+.menuIcon{
+    position: absolute;
+    top: 8vh;
+    right: 8vw;
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-between;
+    width: 3vw;
+    height: 3.5vh;
+}
+
+.bar{
+    padding: auto;
+    width: 100%;
+    height: 0.5vh;
+    background: white;
+}
+.menuBar{
+    animation: slidein 3s ease-in 1s 2 reverse both paused ;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40vw;
+    height: 100rem;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+}
+.menubarItem{
+    margin: auto;
+    color: white;
+    font-size: medium;
+    /* font-family: 'Inter'; */
+    font-weight: bold;
+}
+.content{
+    
+    
+    width: 100vmax;
+    padding-bottom: 100px;
+
+}
+.blob{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.blobLeft{
+    position: relative;
+    left: 8vw;
+    
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+}
+.blobRight{
+    position: relative;
+    left: 10vw;
+    top: 10vw;
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+
+}
+.blobTitle{
+    color: white;
+    font-weight: 600;
+    font-size: 5vh;
+    margin-bottom: 5%;
+    mix-blend-mode: difference;
+
+}
+.blobContent{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+    width: 40vw;
+    background: rgba(96, 96, 96, 0.2);
+    border-radius: 50px;
+}
+
+.blobText{
+    padding: auto;
+    width: 35vw;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 3vh;
+    line-height: 42px;
+    text-align: center;
+}
